@@ -20,11 +20,11 @@ using namespace std;
  * 
  */
 const float convmmft= 304.8;//conversion millimeters to feet from google
-const float convmm= 1000.0f
+const float convmm= 1000.0f;
 int main(int argc, char** argv) {
     float waterlev = 1.5f //water level goes up 1.5mm per year
     int nyear1=5,nyear2=7,nyear3=10//years to calculate rise
-    float  rise1,rise2,rise3;//solutions for the 3 years from above
+    float rise1,rise2,rise3;//solutions for the 3 years from above
     int nyrbch;//number of years before your home is beach front property
     float elevriv=860;//elevation of riverside in feet according to wikipedia
     
@@ -36,12 +36,12 @@ int main(int argc, char** argv) {
     nyrbch=elevriv/rate*convmmft;
     
     //display output
-    cout<<"the rate of sea level rise = "<<rate<<"mm/year"<<endl;
-    cout<<"after "<<nyear1<<" years the sea will rise "<<rise<<"mm"<<endl;
-    cout<<"after "<<nyear2<<" years the sea will rise "<<rise<<"mm"<<endl;
-    cout<<"after "<<nyear3<<" years the sea will rise "<<rise<<"mm"<<endl;
-    cout<<"at this rate riverside citizens will own beach frot properties for "<<nyrbch << "years" <<endl;  
-    cout<<nyrbch<<
+    cout <<"the rate of sea level rise = "<<rate<<"mm/year"<<endl;
+    cout <<"after "<<nyear1<<" years the sea will rise "<<rise1<<"mm"<<endl;
+    cout <<"after "<<nyear2<<" years the sea will rise "<<rise2<<"mm"<<endl;
+    cout <<"after "<<nyear3<<" years the sea will rise "<<rise3<<"mm"<<endl;
+    cout <<"at this rate riverside citizens will own beach from properties for "<<nyrbch << "years" <<endl;  
+    
     
     return 0;
     
