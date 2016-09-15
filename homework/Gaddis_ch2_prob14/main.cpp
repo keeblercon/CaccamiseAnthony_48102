@@ -1,8 +1,8 @@
 /* 
  * File:   main.cpp
- * Author: Dr. Mark E. Lehr
- * Created on July 19, 2016, 9:07 AM
- * Purpose:  Hello World Template
+ * Author: Caccamise, Anthony
+ * Created on September 15, 2016
+ 
  */
 
 //System Libraries Here
