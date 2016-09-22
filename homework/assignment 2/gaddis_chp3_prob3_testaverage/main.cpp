@@ -1,6 +1,6 @@
 /* 
  * File:   main.cpp
- * Author: Dr. Mark E. Lehr
+ * Author: anthony, caccamise 
  * Created on July 19, 2016, 9:07 AM
  * Purpose:  Hello World Template
  */
