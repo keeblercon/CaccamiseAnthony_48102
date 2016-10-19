@@ -1,6 +1,6 @@
 /* 
  * File:   main.cpp
- * Author: Hassan Farhat
+ * Author: caccamise anthony
  * Created on September 22, 2016, 12:14 PM
  * Purpose : Word game
  */
